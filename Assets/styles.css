@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.background {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/hero2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.background > * {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.25)
+}
+.title {
+  display: inline-block;
+  top: 50px;
+  left: 50px;
+  font-weight: 400;
+}
+.title:hover {
+  opacity: 0.5;
+}
+.title > a{
+  text-transform: none;
+}
+.contact {
+  display: inline-block;
+  right: 50px;
+  top: 50px;
+  padding: 8px 20px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.25)
+}
+.info {
+top: 40vh;
+margin-left: auto;
+display: block;
+}
+.header {
+  display: block;
+  font-size: 2.8em;
+  font-weight: 300;
+  line-height: 2.4em;
+  color: #fff;
+}
+.info {
+  left: 50px;
+}
+.bio {
+  display: block;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  font-weight: 300;
+  color: #fff;
+}
+.services {
+  text-align: center;
+  margin: 120px auto 0 auto;
+  line-height: 1em;
+  font-weight: 500;
+}
+.services > h2 {
+  margin: 0 0 25px 0;
+  font-size: 1.6em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.services > p {
+  color: gray;
+  margin-bottom: 100px;
+}
+.strategy-design-tech {
+  display: grid;
+  grid-template-columns: 3;
+  margin: auto;
+  width: 75%;
+  border: 3px solid red;
+  padding: 10px;
+}
+ .strategy > img, .design > img, .technology > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+ li {
+  list-style-type: none;
+  color: gray;
+  line-height: 1.8;
+  text-align: center;
+}
+.strategy > ul, .design > ul, .technology > ul {
+  margin-top: 30px;
+}
+.strategy > h3, .design > h3, .technology > h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  border: 3px solid green;
+}
+.strategy {
+  grid-column-start: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.design {
+  grid-column-start: 2;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.technology {
+  grid-column-start: 3;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.contact-us {
+  color: #000;
+}
+.contact-us:hover {
+  color: gray;
+}
+.design_footer > a {
+  text-transform: none;
+  color: black;
+}
+.design_footer > p {
+  text-align: center;
+  margin: 50px 0;
+  color: gray;
+}
