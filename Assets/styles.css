@@ -91,10 +91,9 @@ display: block;
 }
 .strategy-design-tech {
   display: grid;
-  grid-template-columns: 3;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   width: 75%;
-  border: 3px solid red;
   padding: 10px;
 }
  .strategy > img, .design > img, .technology > img {
@@ -102,37 +101,36 @@ display: block;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
+  height: 60px;
 }
- li {
+
+ ul {
   list-style-type: none;
   color: gray;
-  line-height: 1.8;
+  line-height: 2em;
   text-align: center;
+  margin-top: 20px;
 }
-.strategy > ul, .design > ul, .technology > ul {
-  margin-top: 30px;
-}
-.strategy > h3, .design > h3, .technology > h3 {
+
+.services-h3 {
   text-align: center;
-  font-size: 1.5em;
-  font-weight: 400;
-  border: 3px solid green;
+  font-size: 1.2em;
+  font-weight: 200;
 }
+
 .strategy {
   grid-column-start: 1;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 auto;
+
 }
 .design {
   grid-column-start: 2;
-  margin-left: 50px;
-  margin-right: 50px;
-
+  margin: 0 auto;
 }
 .technology {
   grid-column-start: 3;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 auto;
+
 }
 .contact-us {
   color: #000;
